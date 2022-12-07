@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <a href="../index.html">
+      <i class="fa-solid fa-arrow-left"></i>
+    </a>
+
+    <div class="progress_bar">
+      <span></span>
+    </div>
+
+    <main class="quiz-app quiz-info-static-Elements hide">
+      <section class="quiz-info">
+        <div class="category">Category: <span>Javascript</span></div>
+        <div class="question-count">Questions: <span></span>/<span></span></div>
+      </section>
+
+      <section class="quiz-title visibility delete">
+        <h2></h2>
+      </section>
+
+      <section class="questions visibility delete">
+        <div class="answer">
+          <input type="radio" id="answer_1" name="question">
+          <label for="answer_1" data-letter="A"></label>
+        </div>
+        <div class="answer">
+          <input type="radio" id="answer_2" name="question">
+          <label for="answer_2" data-letter="B"></label>
+        </div>
+        <div class="answer">
+          <input type="radio" id="answer_3" name="question">
+          <label for="answer_3" data-letter="C"></label>
+        </div>
+        <div class="answer">
+          <input type="radio" id="answer_4" name="question">
+          <label for="answer_4" data-letter="D"></label>
+        </div>
+      </section>
+
+      <section class="timer_btn">
+        <button class="submit_btn visibility delete">NEXT</button>
+        <button class="start_quiz">Start</button>
+        <div class="count_down"></div>
+      </section>
+    </main>
+
+    <div class="result" id="result">
+      <img src="../img/boywave.png" alt="">
+      <span></span>
+    </div>
+
+    <script src="../js/quiz-js.js" type="module"></script>
+  </body>
+
+</html>

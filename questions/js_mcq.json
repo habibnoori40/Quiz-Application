@@ -1,0 +1,323 @@
+[
+  {
+    "title": "Which operator returns true if the two compared values are not equal?",
+    "answer_1": "<>",
+    "answer_2": "~",
+    "answer_3": "==!",
+    "answer_4": "!==",
+    "correct": "!=="
+  },
+  {
+    "title": "How is a forEach statement different from a for statement?",
+    "answer_1": "Only a for statement uses a callback function.",
+    "answer_2": "A for statement is generic, but a forEach statement can be used only with an array.",
+    "answer_3": "Only a forEach statement lets you specify your own iterator.",
+    "answer_4": "A forEach statement is generic, but a for statement can be used only with an array.",
+    "correct": "A for statement is generic, but a forEach statement can be used only with an array."
+  },
+  {
+    "title": "Which statement is the correct way to create a variable called rate and assign it the value 100?",
+    "answer_1": "let rate = 100;",
+    "answer_2": "let 100 = rate;",
+    "answer_3": "100 = let rate;",
+    "answer_4": "rate = 100;",
+    "correct": "let rate = 100;"
+  },
+  {
+    "title": "You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?",
+    "answer_1": "/[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/",
+    "answer_2": "/dd:dd:dd/",
+    "answer_3": "/[0-9]+:[0-9]+:[0-9]+/",
+    "answer_4": "/ : : /",
+    "correct": "/dd:dd:dd/"
+  },
+  {
+    "title": "Which property references the DOM object that dispatched an event?",
+    "answer_1": "self",
+    "answer_2": "target[0]",
+    "answer_3": "target",
+    "answer_4": "source",
+    "correct": "target"
+  },
+  {
+    "title": "Which method converts JSON data to a JavaScript object?",
+    "answer_1": "JSON.fromString();",
+    "answer_2": "JSON.parse()",
+    "answer_3": "JSON.toObject()",
+    "answer_4": "JSON.stringify()",
+    "correct": "JSON.parse()"
+  },
+  {
+    "title": "When would you use a conditional statement?",
+    "answer_1": "When you want to reuse a set of statements multiple times.",
+    "answer_2": "When you want your code to choose between multiple options.",
+    "answer_3": "When you want to group data together.",
+    "answer_4": "When you want to loop through a group of statement.",
+    "correct": "When you want your code to choose between multiple options."
+  },
+  {
+    "title": "Which Object method returns an iterable that can be used to iterate over the properties of an object?",
+    "answer_1": "Object.get();",
+    "answer_2": "Object.getKeys()",
+    "answer_3": "Object.each()",
+    "answer_4": "Object.keys()",
+    "correct": "Object.keys()"
+  },
+  {
+    "title": "What is one difference between collections created with Map and collections created with Object?",
+    "answer_1": "You can iterate over values in a Map in their insertion order.;",
+    "answer_2": "You can count the records in a Map with a single method call.",
+    "answer_3": "Keys in Maps can be strings.",
+    "answer_4": "You can access values in a Map without iterating over the whole collection.",
+    "correct": "You can count the records in a Map with a single method call."
+  },
+  {
+    "title": "What is the output of console.log(0 && hi)",
+    "answer_1": "ReferenceError",
+    "answer_2": "true",
+    "answer_3": "0",
+    "answer_4": "false",
+    "correct": "0"
+  },
+  {
+    "title": "Why would you include a \"use strict\" statement in a JavaScript file?",
+    "answer_1": "to tell parsers to interpret your JavaScript syntax loosely",
+    "answer_2": "to tell parsers to enforce all JavaScript syntax rules when processing your code",
+    "answer_3": "to instruct the browser to automatically fix any errors it finds in the code",
+    "answer_4": "to enable ES6 features in your code",
+    "correct": "to tell parsers to enforce all JavaScript syntax rules when processing your code"
+  },
+  {
+    "title": "Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?",
+    "answer_1": "all of them",
+    "answer_2": "const",
+    "answer_3": "var",
+    "answer_4": "let",
+    "correct": "var"
+  },
+  {
+    "title": "Which of the following values is not a Boolean false?",
+    "answer_1": "Boolean(0)",
+    "answer_2": "Boolean(\"\")",
+    "answer_3": "Boolean(NaN)",
+    "answer_4": "Boolean(\"false\")",
+    "correct": "Boolean(\"false\")"
+  },
+  {
+    "title": "Which of the following is not a keyword in JavaScript?",
+    "answer_1": "this",
+    "answer_2": "catch",
+    "answer_3": "function",
+    "answer_4": "array",
+    "correct": "array"
+  },
+  {
+    "title": "Which variable is an implicit parameter for every function in JavaScript?",
+    "answer_1": "Arguments",
+    "answer_2": "args",
+    "answer_3": "argsArray",
+    "answer_4": "argumentsList",
+    "correct": "Arguments"
+  },
+  {
+    "title": "Why is it usually better to work with Objects instead of Arrays to store a collection of records?",
+    "answer_1": "Objects are more efficient in terms of storage.",
+    "answer_2": "Adding a record to an object is significantly faster than pushing a record into an array.",
+    "answer_3": "Most operations involve looking up a record, and objects can do that better than arrays.",
+    "answer_4": "Working with objects makes the code more readable.",
+    "correct": "Most operations involve looking up a record, and objects can do that better than arrays."
+  },
+  {
+    "title": "Which statement is true about the \"async\" attribute for the HTML script tag?",
+    "answer_1": "It can be used for both internal and external JavaScript code.",
+    "answer_2": "It can be used only for internal JavaScript code.",
+    "answer_3": "It can be used only for internal or external JavaScript code that exports a promise.",
+    "answer_4": "It can be used only for external JavaScript code.",
+    "correct": "It can be used only for external JavaScript code."
+  },
+  {
+    "title": "What does the [] == []; expression evaluate to? ",
+    "answer_1": "true",
+    "answer_2": "undefined",
+    "answer_3": "[]",
+    "answer_4": "false",
+    "correct": "false"
+  },
+  {
+    "title": "What type of function can have its execution suspended and then resumed at a later point?",
+    "answer_1": "Generator function",
+    "answer_2": "Arrow function",
+    "answer_3": "Async/ Await function",
+    "answer_4": "Promise function",
+    "correct": "Generator function"
+  },
+  {
+    "title": "What will the value of y be in this code: const y = 0 ? 'One' : 'Two';",
+    "answer_1": "One",
+    "answer_2": "undefined",
+    "answer_3": "null",
+    "answer_4": "Two",
+    "correct": "Two"
+  },
+  {
+    "title": "Which keyword is used to create an error?",
+    "answer_1": "throw",
+    "answer_2": "exception",
+    "answer_3": "catch",
+    "answer_4": "error",
+    "correct": "throw"
+  },
+  {
+    "title": "Which collection object allows unique value to be inserted only once?",
+    "answer_1": "Object",
+    "answer_2": "Set",
+    "answer_3": "Array",
+    "answer_4": "Map",
+    "correct": "Set"
+  },
+  {
+    "title": "Why might you choose to make your code asynchronous?",
+    "answer_1": "to start tasks that might take some time without blocking subsequent tasks from executing immediately",
+    "answer_2": "to ensure that tasks further down in your code are not initiated until earlier tasks have completed",
+    "answer_3": "to make your code faster",
+    "answer_4": "to ensure that the call stack maintains a LIFO (Last in, First Out) structure",
+    "correct": "to start tasks that might take some time without blocking subsequent tasks from executing immediately"
+  },
+  {
+    "title": "Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior?",
+    "answer_1": "class",
+    "answer_2": "generator function",
+    "answer_3": "map",
+    "answer_4": "proxy",
+    "correct": "class"
+  },
+
+  {
+    "title": "Which of the following is correct about JavaScript?",
+    "answer_1": "JavaScript is an Object-Based language",
+    "answer_2": "JavaScript is Assembly-language",
+    "answer_3": "JavaScript is an Object-Oriented language",
+    "answer_4": "JavaScript is a High-level language",
+    "correct": "JavaScript is an Object-Based language"
+  },
+  {
+    "title": "Among the given statements, which statement defines closures in JavaScript?",
+    "answer_1": "JavaScript is a function that is enclosed with references to its inner function scope",
+    "answer_2": "JavaScript is a function that is enclosed with references to its lexical environment",
+    "answer_3": "JavaScript is a function that is enclosed with the object to its inner function scope",
+    "answer_4": "None of the mentioned",
+    "correct": "JavaScript is a function that is enclosed with references to its lexical environment"
+  },
+  {
+    "title": "Will the following JavaScript code work? var js = (function(x) {return x*x;}(10));",
+    "answer_1": "Exception will be thrown",
+    "answer_2": "Memory leak",
+    "answer_3": "Yes, perfectly",
+    "answer_4": "Error",
+    "correct": "Yes, perfectly"
+  },
+  {
+    "title": "Which of the following object is the main entry point to all client-side JavaScript features and APIs?",
+    "answer_1": "Resopnse",
+    "answer_2": "Document",
+    "answer_3": "Location",
+    "answer_4": "Window",
+    "correct": "Window"
+  },
+  {
+    "title": "Which of the following scoping type does JavaScript use?",
+    "answer_1": "Sequential",
+    "answer_2": "Segmental",
+    "answer_3": "Lexical",
+    "answer_4": "Literal",
+    "correct": "Lexical"
+  },
+  {
+    "title": "Why JavaScript Engine is needed?",
+    "answer_1": "Interpreting the JavaScript",
+    "answer_2": "Parsing the javascript",
+    "answer_3": "Both Compiling & Interpreting the JavaScript",
+    "answer_4": "Compiling the JavaScript",
+    "correct": "Interpreting the JavaScript"
+  },
+  {
+    "title": "What is the prototype represents in the following JavaScript code snippet? function javascript() {};",
+    "answer_1": "Not valid",
+    "answer_2": "A custom constructor",
+    "answer_3": "Prototype of a function",
+    "answer_4": "Function javascript",
+    "correct": "A custom constructor"
+  },
+  {
+    "title": "Which is the exponentiation operator in JavaScript?",
+    "answer_1": "exp()",
+    "answer_2": "^",
+    "answer_3": "**",
+    "answer_4": "pow()",
+    "correct": "**"
+  },
+  {
+    "title": "JavaScript types are _____.",
+    "answer_1": "Static",
+    "answer_2": "Dynamic",
+    "answer_3": "All answers",
+    "answer_4": "Constant",
+    "correct": "Dynamic"
+  },
+  {
+    "title": "Which character is used to break up a code line within a text string in JavaScript?",
+    "answer_1": "Single quote(')",
+    "answer_2": "Single forwardslash(/)",
+    "answer_3": "Double quote (\")",
+    "answer_4": "Single backslash(\\)",
+    "correct": "Single backslash(\\)"
+  },
+  {
+    "title": "Which is/are the valid JavaScript method(s) to extract string parts?",
+    "answer_1": "slice(start, end)",
+    "answer_2": "substring(start, end)",
+    "answer_3": "substr(start, length)",
+    "answer_4": "All of the above",
+    "correct": "All of the above"
+  },
+  {
+    "title": "Which JavaScript method is used to call a function (a callback function) once for each Nodelist element?",
+    "answer_1": "for()",
+    "answer_2": "map()",
+    "answer_3": "forEach()",
+    "answer_4": "filter()",
+    "correct": "forEach()"
+  },
+  {
+    "title": "Which JavaScript statement(s) is correct to create Date object(s) with new Date() constructor?",
+    "answer_1": "new Date()",
+    "answer_2": "new Date(year, month, day, hours, minutes, seconds, milliseconds)",
+    "answer_3": "All answers",
+    "answer_4": "new Date(date string)",
+    "correct": "All answers"
+  },
+  {
+    "title": "Which JavaScript method is used to convert a date to a UTC string (a date display standard)?",
+    "answer_1": "toUTCString()",
+    "answer_2": "toUtcString()",
+    "answer_3": "utcString()",
+    "answer_4": "toUTCTime()",
+    "correct": "toUTCString()"
+  },
+  {
+    "title": "The internal clock in JavaScript counts from midnight _____.",
+    "answer_1": "January 1, 1972",
+    "answer_2": "January 1, 1947",
+    "answer_3": "January 1, 1980",
+    "answer_4": "January 1, 1970",
+    "correct": "January 1, 1970"
+  },
+  {
+    "title": "What will be the output of the following JavaScript code? document.write(Math.round(107.5))",
+    "answer_1": "107.5",
+    "answer_2": "107",
+    "answer_3": "108",
+    "answer_4": "107.00",
+    "correct": "108"
+  }
+]

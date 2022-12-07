@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Which is the outermost planet in the solar system?",
+    "answer_1": "Mercury",
+    "answer_2": "Pluto",
+    "answer_3": "Neptune",
+    "answer_4": "Uranus",
+    "correct": "Neptune"
+  },
+  {
+    "title": "Deficiency of Vitamin-A results in __________?",
+    "answer_1": "Night blindness",
+    "answer_2": "rickets",
+    "answer_3": "scurvy",
+    "answer_4": "hair fall",
+    "correct": "Night blindness"
+  },
+  {
+    "title": "The lifespan of Red Blood Cells is __________ days?",
+    "answer_1": "60",
+    "answer_2": "120",
+    "answer_3": "180",
+    "answer_4": "240",
+    "correct": "120"
+  },
+  {
+    "title": "A device which converts chemical energy into electrical energy is called __________?",
+    "answer_1": "motor",
+    "answer_2": "generator",
+    "answer_3": "moving-coil meter",
+    "answer_4": "battery",
+    "correct": "battery"
+  },
+  {
+    "title": "The basic operations performed by a computer are__________?",
+    "answer_1": "Arithmetic operation",
+    "answer_2": "Logical operation",
+    "answer_3": "Storage and relative",
+    "answer_4": "All of them",
+    "correct": "All of them"
+  },
+  {
+    "title": "A computer program that translates one statement of program instructions at a time into machine language is called",
+    "answer_1": "CPU",
+    "answer_2": "Interpreter",
+    "answer_3": "Compiler",
+    "answer_4": "Simulator",
+    "correct": "Interpreter"
+  },
+  {
+    "title": "Which is the closest planet to the Sun?",
+    "answer_1": "Jupiter",
+    "answer_2": "Mercury",
+    "answer_3": "Neptune",
+    "answer_4": "Earth",
+    "correct": "Mercury"
+  },
+  {
+    "title": "The largest planet in the Solar System is :",
+    "answer_1": "Neptune",
+    "answer_2": "Jupiter",
+    "answer_3": "Saturn",
+    "answer_4": "Venus",
+    "correct": "Jupiter"
+  },
+  {
+    "title": "Mars is known as:",
+    "answer_1": "Red Planet",
+    "answer_2": "Earth’s twin",
+    "answer_3": "Green Planet",
+    "answer_4": "Blue Planet",
+    "correct": "Red Planet"
+  },
+  {
+    "title": "The planet with rings around it is/are:",
+    "answer_1": "Uranus",
+    "answer_2": "Jupiter",
+    "answer_3": "Saturn and Neptune",
+    "answer_4": "All of them",
+    "correct": "All of them"
+  },
+  {
+    "title": "What is the rate of discount if a car which price was $4,000 was sold for $3,200 ?",
+    "answer_1": "14%",
+    "answer_2": "16%",
+    "answer_3": "20%",
+    "answer_4": "18%",
+    "correct": "20%"
+  },
+  {
+    "title": "A man buys an article for 10% less than its value and sells it for 10% more than its value. His gain or loss percent is:________?",
+    "answer_1": "no profit, no loss",
+    "answer_2": "more than 20% profit",
+    "answer_3": "less than 20% profit",
+    "answer_4": "20% profit",
+    "correct": "more than 20% profit"
+  },
+  {
+    "title": "If 6 men take 9 days to complete a work, how many men can complete the work in 3 days??",
+    "answer_1": "2 men",
+    "answer_2": "9 men",
+    "answer_3": "12 men ",
+    "answer_4": "18 men",
+    "correct": "18 men"
+  },
+  {
+    "title": "Which civilisation is the oldest in the world?",
+    "answer_1": "Mesopotamian Civilization",
+    "answer_2": "Egyptian Civilization",
+    "answer_3": "Chinese Civilization",
+    "answer_4": "Indus Valley Civilization",
+    "correct": "Mesopotamian Civilization"
+  },
+  {
+    "title": "Who is known as the father of History?",
+    "answer_1": "Sophocles",
+    "answer_2": "Homer",
+    "answer_3": "Herodotus",
+    "answer_4": "Aristophanes",
+    "correct": "Herodotus"
+  },
+  {
+    "title": "The Soviet Union was made up of _____ republics.",
+    "answer_1": "15.",
+    "answer_2": "10.",
+    "answer_3": "20.",
+    "answer_4": "17.",
+    "correct": "15."
+  },
+  {
+    "title": "World War I ended?",
+    "answer_1": "November 10, 1918.",
+    "answer_2": "November 11, 1919.",
+    "answer_3": "November 10, 1919.",
+    "answer_4": "November 11, 1918.",
+    "correct": "November 11, 1918."
+  },
+  {
+    "title": "For how many years, Prophet Muhammad (PBUH) lived in Madinah?",
+    "answer_1": "5 years",
+    "answer_2": "10 years",
+    "answer_3": "15 years",
+    "answer_4": "20 years",
+    "correct": "10 years"
+  },
+  {
+    "title": "In the beginning, to which Arab tribe Prophet Muhammad (PBUH) worked as a shepherd?",
+    "answer_1": "Banu Saad",
+    "answer_2": "Banu Asad",
+    "answer_3": "Banu Ummayya",
+    "answer_4": "Banu Makhzoom",
+    "correct": "Banu Saad"
+  },
+  {
+    "title": "Which surah of the holy Quran contains orders about Wudu, Ghusal and Tayammum?",
+    "answer_1": "An-Nisa",
+    "answer_2": "Al-Baqarah",
+    "answer_3": "Al-Mominoon",
+    "answer_4": "Al-Maidah",
+    "correct": "Al-Maidah"
+  },
+  {
+    "title": "The color of the first Islamic flag was",
+    "answer_1": "Black",
+    "answer_2": "White and Black",
+    "answer_3": "White",
+    "answer_4": "Green",
+    "correct": "White"
+  },
+  {
+    "title": "The “Battle of Yermuk” was fought between Muslims and",
+    "answer_1": "Jews",
+    "answer_2": "Romans",
+    "answer_3": "Iranis",
+    "answer_4": "Buddhist",
+    "correct": "Romans"
+  },
+  {
+    "title": "The “Cave of Hira” is situated in which mountain?",
+    "answer_1": "As-Safa",
+    "answer_2": "Sil",
+    "answer_3": "Uhud",
+    "answer_4": "An-Noor",
+    "correct": "An-Noor"
+  },
+  {
+    "title": "What is the purpose of creation of human?",
+    "answer_1": "none",
+    "answer_2": "To only be happy",
+    "answer_3": "To worship the only true god (Allah)",
+    "answer_4": "To do nothing but live your life",
+    "correct": "To worship the only true god (Allah)"
+  }
+]

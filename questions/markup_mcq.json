@@ -1,0 +1,315 @@
+[
+  {
+    "title": "What is DOM in HTML?",
+    "answer_1": "Language dependent application programming",
+    "answer_2": "Convention for representing and interacting with objects in html documents",
+    "answer_3": "Application programming interface",
+    "answer_4": "Hierarchy of objects in ASP.NET",
+    "correct": "Convention for representing and interacting with objects in html documents"
+  },
+  {
+    "title": "In which part of the HTML metadata is contained?",
+    "answer_1": "title tag",
+    "answer_2": "html tag",
+    "answer_3": "body tag",
+    "answer_4": "head tag",
+    "correct": "head tag"
+  },
+  {
+    "title": "Which snippet of HTML, when clicked, makes a phone call on a mobile device?",
+    "answer_1": "<a href=\"tel\">802-555-1212</a>",
+    "answer_2": "<a href=\"phone:802-555-1212\">Call me</a>",
+    "answer_3": "<a href=\"tel:802-555-1212\">Call me</a>",
+    "answer_4": "<a href=\"phone\">802-555-1212</a>",
+    "correct": "<a href=\"tel:802-555-1212\">Call me</a>"
+  },
+  {
+    "title": "What is the primary purpose of HTML?",
+    "answer_1": "HTML is responsible for the structure, styling, and interactivity of webpages.",
+    "answer_2": "HTML structures the webpage, identifying its elements such as paragraphs, headings, and lists.",
+    "answer_3": "HTML is responsible for the structure and styling of webpages.",
+    "answer_4": "HTML structures and provides a rudimentary look to webpages.",
+    "correct": "HTML structures the webpage, identifying its elements such as paragraphs, headings, and lists."
+  },
+  {
+    "title": "Which of the following is not the element associated with the HTML table layout?",
+    "answer_1": "color",
+    "answer_2": "size",
+    "answer_3": "spanning",
+    "answer_4": "alignment ",
+    "correct": "color"
+  },
+  {
+    "title": "Which list comprises three empty elements?",
+    "answer_1": "<wbr> <base> <source>",
+    "answer_2": "<link> <meta> <title>",
+    "answer_3": "<input> <br> <p>",
+    "answer_4": "<area> <embed> <strong>",
+    "correct": "<wbr> <base> <source>"
+  },
+  {
+    "title": "Which HTML tag is used to insert an image?",
+    "answer_1": "<img url=”htmllogo.jpg” />",
+    "answer_2": "<img url=`htmllogo.jpg` />",
+    "answer_3": "<img src=”htmllogo.jpg” />",
+    "answer_4": "<img link=”htmllogo.jpg” />",
+    "correct": "<img src=”htmllogo.jpg” />"
+  },
+  {
+    "title": "Which image formats can be displayed by all web browsers?",
+    "answer_1": "JPG, GIF, TIF",
+    "answer_2": "PNG, GIF, JPG",
+    "answer_3": "JPG, TIF, BMP",
+    "answer_4": "TIF, BMP, GIF",
+    "correct": "PNG, GIF, JPG"
+  },
+  {
+    "title": "HTML is a subset of ___________",
+    "answer_1": "SGML",
+    "answer_2": "SGME",
+    "answer_3": "SGMT",
+    "answer_4": "XHTML",
+    "correct": "SGML"
+  },
+  {
+    "title": "Which statement is false?",
+    "answer_1": "Inline elements can be nested inside block elements.",
+    "answer_2": "Block elements can be nested inside inline elements.",
+    "answer_3": "Block elements can be nested inside block elements.",
+    "answer_4": "Inline elements can be nested inside inline elements.",
+    "correct": "Block elements can be nested inside inline elements."
+  },
+  {
+    "title": "what is the correct way to describe an empty element?",
+    "answer_1": "It has child but no closing tag.",
+    "answer_2": "It dissplay nothing on a webside.",
+    "answer_3": "It has opening and closing tags but no child content",
+    "answer_4": "It has no chlid content and no closing tag.",
+    "correct": "It has opening and closing tags but no child content"
+  },
+  {
+    "title": "When should you use the <article> element?",
+    "answer_1": "for the main content area of your website.",
+    "answer_2": "when the content stands alone as a unit, is suitable for syndication, or is reusable.",
+    "answer_3": "to associate comments with a blog post.",
+    "answer_4": "for blog posts and other social media items.",
+    "correct": "when the content stands alone as a unit, is suitable for syndication, or is reusable."
+  },
+  {
+    "title": "Which choice is not a legal type attribute for the <input> tag?",
+    "answer_1": "<input type=\"num\">",
+    "answer_2": "<input type=\"color\">",
+    "answer_3": "<input type=\"tel\">",
+    "answer_4": "<input type=\"week\">",
+    "correct": "<input type=\"num\">"
+  },
+  {
+    "title": "What is the best semantic way to indicate that text refers to keyboard entry?",
+    "answer_1": "<p>Press the <tt>Enter</tt> key to proceed.</p>",
+    "answer_2": "<p>Press the <samp>Enter</samp> key to proceed.</p>",
+    "answer_3": "<p>Press the Enter key to proceed.</p>",
+    "answer_4": "<p>Press the <kbd>Enter</kbd> key to proceed.</p>",
+    "correct": "<p>Press the <kbd>Enter</kbd> key to proceed.</p>"
+  },
+  {
+    "title": "What is the difference between the <head> and <header> tags?",
+    "answer_1": "There is only one <head> tag per page, while there may be many <header> tags.",
+    "answer_2": "All Of These Answers",
+    "answer_3": "The <head> tag contains meta information, while the <header> tag contains navigation, logos, and other page identifying content.",
+    "answer_4": "The <head> tag may contain CSS and JavaScript links, while the <header> tag may contain headings and navigational links.",
+    "correct": "There is only one <head> tag per page, while there may be many <header> tags."
+  },
+  {
+    "title": "In HTML5, which tag or tags embed a webpage inside of a webpage?",
+    "answer_1": "<iframe>, <frame>, and <frameset>",
+    "answer_2": "<frame>",
+    "answer_3": "<iframe>",
+    "answer_4": "<frame> and <frameset>",
+    "correct": "<iframe>"
+  },
+  {
+    "title": "Where do <header> and <footer> tags typically occur?",
+    "answer_1": "as children of <body>, <article>, <aside>, and <section> tags",
+    "answer_2": "as children of <body>, <article>, and <section> tags",
+    "answer_3": "as children of <body>, <article>, <aside>, <nav>, and <section> tags",
+    "answer_4": "as children of <body>, <article>, <table>, and <section> tags",
+    "correct": "as children of <body>, <article>, and <section> tags"
+  },
+  {
+    "title": "The \"value\" attribute is associated with which set of tags?",
+    "answer_1": "<li><input><option>",
+    "answer_2": "<input><label><meter>",
+    "answer_3": "<input><option><textarea>",
+    "answer_4": "<button><input><form>",
+    "correct": "<li><input><option>"
+  },
+  {
+    "title": "What's the best way to apply bold styling to text?",
+    "answer_1": "<bold>",
+    "answer_2": "Use CSS.",
+    "answer_3": "<strong>",
+    "answer_4": "<b>",
+    "correct": "<strong>"
+  },
+  {
+    "title": "When is the <link> tag used?",
+    "answer_1": "when linking style sheets, JavaScript, and icons for mobile apps",
+    "answer_2": "when linking style sheets, favicons, and preloading assets",
+    "answer_3": "when linking style sheets and favicons",
+    "answer_4": "when linking style sheets, external URLs, and favicons",
+    "correct": "when linking style sheets and favicons"
+  },
+  {
+    "title": "Which of the following element is responsible for making the text italic in HTML?",
+    "answer_1": "<i>",
+    "answer_2": "<italic>",
+    "answer_3": "<it>",
+    "answer_4": "<pre>",
+    "correct": "<i>"
+  },
+  {
+    "title": "How to add a background color in HTML?",
+    "answer_1": "<marquee bg color: \"red\">",
+    "answer_2": "<marquee bg-color = \"red\">",
+    "answer_3": "<marquee bgcolor = \"red\">",
+    "answer_4": "<marquee backgroundColor = \"red\">",
+    "correct": "<marquee bgcolor = \"red\">"
+  },
+  {
+    "title": "Which of the following tag is used to make the underlined text?",
+    "answer_1": "<i>",
+    "answer_2": "<underline>",
+    "answer_3": "<u>",
+    "answer_4": "<pre>",
+    "correct": "<u>"
+  },
+  {
+    "title": "Which of the following tag is used to add rows in the table?",
+    "answer_1": "<td>, <tbody>",
+    "answer_2": "<th>, <tt>",
+    "answer_4": "<tr>",
+    "answer_3": "<tr>, <td>",
+    "correct": "<tr>"
+  },
+
+  {
+    "title": "What is the correct syntax of doctype in HTML5?",
+    "answer_1": "</doctype html>",
+    "answer_2": "<!doctype html>",
+    "answer_4": "<doctype html>",
+    "answer_3": "<doctype html!>",
+    "correct": "<!doctype html>"
+  },
+  {
+    "title": "Which HTML element is used for short quote?",
+    "answer_1": "<q>",
+    "answer_2": "<blockquote>",
+    "answer_4": "<abbr>",
+    "answer_3": "<em>",
+    "correct": "<q>"
+  },
+  {
+    "title": "Which HTML element is used for abbreviation or acronym?",
+    "answer_1": "<blockquote>",
+    "answer_2": "<abbr>",
+    "answer_4": "<q>",
+    "answer_3": "<abbreviation>",
+    "correct": "<abbr>"
+  },
+  {
+    "title": "To show deleted text, which HTML element is used?",
+    "answer_1": "<ins>",
+    "answer_2": "<em>",
+    "answer_4": "<strong>",
+    "answer_3": "<del>",
+    "correct": "<del>"
+  },
+  {
+    "title": "Which attribute is not essential under <iframe>?",
+    "answer_1": "frameborder",
+    "answer_2": "width",
+    "answer_4": "height",
+    "answer_3": "src",
+    "correct": "frameborder"
+  },
+  {
+    "title": "Which element works as a sidebar?",
+    "answer_1": "header",
+    "answer_2": "footer",
+    "answer_4": "aside",
+    "answer_3": "nav",
+    "correct": "aside"
+  },
+  {
+    "title": "Fundamental HTML Block is known as ___________.",
+    "answer_1": "HTML Body",
+    "answer_2": "HTML Tag",
+    "answer_4": "HTML Attribute",
+    "answer_3": "HTML Element",
+    "correct": "HTML Tag"
+  },
+  {
+    "title": "HTML web pages can be read and rendered by _________.",
+    "answer_1": "CompilerB",
+    "answer_2": "Server",
+    "answer_4": "Web Browser",
+    "answer_3": "Interpreter",
+    "correct": "Web Browser"
+  },
+  {
+    "title": "The first tag inside <TABLE> tag is _______",
+    "answer_1": "<CAPTION>",
+    "answer_2": "<HEAD>",
+    "answer_4": "<TH>",
+    "answer_3": "<TD>",
+    "correct": "<CAPTION>"
+  },
+  {
+    "title": "The tag which is used to establish the absolute base for relative URLs used in the documents hypertext links",
+    "answer_1": "<BODY>",
+    "answer_2": "<META \"Content-base\">",
+    "answer_4": "<BASE>",
+    "answer_3": "<BR>",
+    "correct": "<BASE>"
+  },
+  {
+    "title": "To start a list using circles, use",
+    "answer_1": "<ul rounded>",
+    "answer_2": "<ul =”round”>",
+    "answer_4": "<ul type=”round”>",
+    "answer_3": "<ul type=”circle”>",
+    "correct": "<ul type=”circle”>"
+  },
+  {
+    "title": "Choose the correct HTML tag to left-align the content inside a table cell",
+    "answer_1": "<td align=”left”>",
+    "answer_2": "<td leftalign>",
+    "answer_4": "<td valign=”left”>",
+    "answer_3": "<td=”left”>",
+    "correct": "<td align=”left”>"
+  },
+  {
+    "title": "Which of the following tag is used to add rows in the table?",
+    "answer_1": "<td>, <tbody>",
+    "answer_2": "<th>, <tt>",
+    "answer_4": "<tr>",
+    "answer_3": "<tr>, <td>",
+    "correct": "<tr>"
+  },
+  {
+    "title": "What does vlink mean?",
+    "answer_1": "active link",
+    "answer_2": "visible link",
+    "answer_4": "visited link",
+    "answer_3": "None of the above",
+    "correct": "visited link"
+  },
+  {
+    "title": "Who is making the Web standards?",
+    "answer_1": "The World Wide Web Consortium",
+    "answer_2": "World Web Federal WWF",
+    "answer_4": "Netscape",
+    "answer_3": "Ecmascript",
+    "correct": "The World Wide Web Consortium"
+  }
+]

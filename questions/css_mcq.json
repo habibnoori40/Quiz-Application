@@ -1,0 +1,283 @@
+[
+  {
+    "title": "The full form of CSS is:",
+    "answer_1": "Cascade style sheets",
+    "answer_2": "Color and style sheets",
+    "answer_3": "Cascading style sheets",
+    "answer_4": "None of the above",
+    "correct": "Cascading style sheets"
+  },
+  {
+    "title": "Which of the following is the correct syntax for referring the external style sheet?",
+    "answer_1": "<style src = example.css>",
+    "answer_2": "<style src = `example.css` >",
+    "answer_3": "<stylesheet> example.css </stylesheet>",
+    "answer_4": "<link rel=\"stylesheet\" type=\"text/css\" href=\"example.css\">",
+    "correct": "<link rel=\"stylesheet\" type=\"text/css\" href=\"example.css\">"
+  },
+  {
+    "title": "Using an attribute selector, how would you select an <a> element with a \"title\" attribute?",
+    "answer_1": "a[title]{...}",
+    "answer_2": "a > title {...}",
+    "answer_3": "a.title {...}",
+    "answer_4": "a=title {...}",
+    "correct": "a[title]{...}"
+  },
+  {
+    "title": "What is the line-height property primarily used for?",
+    "answer_1": "to control the height of the space between two lines of content",
+    "answer_2": "to control the height of the space between heading elements",
+    "answer_3": "to control the height of the character size",
+    "answer_4": "to control the width of the space between characters",
+    "correct": "to control the height of the space between two lines of content"
+  },
+  {
+    "title": "Three of these choices are true about class selectors. Which is NOT true?",
+    "answer_1": "Multiple classes can be used within the same element.",
+    "answer_2": "The same class can be used multiple times per page.",
+    "answer_3": "Class selectors begin with a leading period",
+    "answer_4": "Classes can be used multiple times per page but not within the same element.",
+    "correct": "Classes can be used multiple times per page but not within the same element."
+  },
+  {
+    "title": "Which statement about the SVG image format is true?",
+    "answer_1": "CSS can be applied to SVGs but JavaScript cannot be.",
+    "answer_2": "SVGs work best for creating 3D graphics.",
+    "answer_3": "SVGs can be created as a vector graphic or coded using SVG specific elements such as <svg>, <line>, and <ellipse>.",
+    "answer_4": "SVGs are a HAML-based markup language for creating vector graphics.",
+    "correct": "SVGs can be created as a vector graphic or coded using SVG specific elements such as <svg>, <line>, and <ellipse>."
+  },
+  {
+    "title": "When using position: fixed, what will the element always be positioned relative to?",
+    "answer_1": "the closest element with position: relative",
+    "answer_2": "the viewport",
+    "answer_3": "the parent element",
+    "answer_4": "the wrapper element",
+    "correct": "the viewport"
+  },
+  {
+    "title": "By default, a background image will repeat__",
+    "answer_1": "only if the background-repeat property is set to repeat",
+    "answer_2": "indefinitely, vertically, and horizontally",
+    "answer_3": "indefinitely on the horizontal axis only",
+    "answer_4": "once, on the x and y axis",
+    "correct": "indefinitely, vertically, and horizontally"
+  },
+  {
+    "title": "How would you make the first letter of every paragraph on the page red?",
+    "answer_1": "p::first-letter { color: red; }",
+    "answer_2": "p:first-letter { color: red; }",
+    "answer_3": "first-letter:p { color: red; }",
+    "answer_4": "p:first-letter { color: red; }",
+    "correct": "p::first-letter { color: red; }"
+  },
+  {
+    "title": "What is the rem unit based on?",
+    "answer_1": "The rem unit is relative to the font-size of the p element.",
+    "answer_2": "You have to set the value for the rem unit by writing a declaration such as rem { font-size: 1 Spx; }",
+    "answer_3": "The rem unit is relative to the font-size of the containing (parent) element.",
+    "answer_4": "The rem unit is relative to the font-size of the root element of the page.",
+    "correct": "The rem unit is relative to the font-size of the root element of the page."
+  },
+  {
+    "title": "Which choice would give a block element rounded corners?",
+    "answer_1": "corner-radius: 10px;",
+    "answer_2": "border-corner: 10px;",
+    "answer_3": "corner-curve: 10px;",
+    "answer_4": "border-radius: 10px;",
+    "correct": "border-radius: 10px;"
+  },
+  {
+    "title": "The transform-origin property specifies the location of the element's transformation origin. By default, what is the location of the origin?",
+    "answer_1": "the top left corner of the element",
+    "answer_2": "the center of the element",
+    "answer_3": "the top right corner of the element",
+    "answer_4": "the bottom left of the element",
+    "correct": "the center of the element"
+  },
+  {
+    "title": "Which choice is not a valid color value?",
+    "answer_1": "color: #000",
+    "answer_2": "color: rgb(0,0,0)",
+    "answer_3": "color: #000000",
+    "answer_4": "color: 000000",
+    "correct": "color: 000000"
+  },
+  {
+    "title": "Which type of declaration will take precedence?",
+    "answer_1": "any declarations in user-agent stylesheets",
+    "answer_2": "important declarations in user stylesheets",
+    "answer_3": "normal declarations in author stylesheets",
+    "answer_4": "important declarations in author stylesheets",
+    "correct": "important declarations in user stylesheets"
+  },
+  {
+    "title": "There are many advantages to using icon fonts. What is one of those advantages?",
+    "answer_1": "Icon fonts increase accessibility.",
+    "answer_2": "Icon fonts can be used to replace custom fonts.",
+    "answer_3": "Icon fonts can be styled with typography related properties such as font-size and color.",
+    "answer_4": "Icon fonts are also web safe fonts.",
+    "correct": "Icon fonts can be styled with typography related properties such as font-size and color."
+  },
+  {
+    "title": "In a RGBA color value, what does A stand for?",
+    "answer_1": "specifies the opacity for a color",
+    "answer_2": "A specifies the Aqua color",
+    "answer_3": "A specifies the opacity Azure color",
+    "answer_4": "All of the above",
+    "correct": "specifies the opacity for a color"
+  },
+  {
+    "title": "What selector and property would you use to scale an element to be 50% smaller on hover?",
+    "answer_1": "element:hover {scale: 0.5;}",
+    "answer_2": "element:hover {transform: scale(0.5);}",
+    "answer_3": "element:hover {transform: scale(0.5);}",
+    "answer_4": "element:hover {transform: scale(50%);}",
+    "correct": "element:hover {transform: scale(0.5);}"
+  },
+  {
+    "title": "Which selector would select only internal links within the current page?",
+    "answer_1": "a[href=\"#\"] {...}",
+    "answer_2": "a[href~=\"#\"]",
+    "answer_3": "a[href~=\"#\"]",
+    "answer_4": "a[href=\"#\"]",
+    "correct": "a[href~=\"#\"]"
+  },
+  {
+    "title": "Which style places an element at a fixed location within its container?",
+    "answer_1": "position: absolute;",
+    "answer_2": "display: flex;",
+    "answer_3": "display: block",
+    "answer_4": "float: left;",
+    "correct": "position: absolute;"
+  },
+  {
+    "title": "What is the ::placeholder pseudo-element used for?",
+    "answer_1": "It is used to format the appearance of placeholder text within a form control.",
+    "answer_2": "It specifies the default input text for a form control.",
+    "answer_3": "It writes text content into a hyperlink tooltip.",
+    "answer_4": "It writes text content into any page element.",
+    "correct": "It is used to format the appearance of placeholder text within a form control."
+  },
+  {
+    "title": "Which choice is not valid value for the font-style property?",
+    "answer_1": "normal",
+    "answer_2": "italic",
+    "answer_3": "none",
+    "answer_4": "oblique",
+    "correct": "none"
+  },
+  {
+    "title": "While HTML controls document structure, CSS controls___.",
+    "answer_1": "semantic meaning",
+    "answer_2": "content meaning",
+    "answer_3": "document structure",
+    "answer_4": "content appearance",
+    "correct": "content appearance"
+  },
+  {
+    "title": "Which CSS keyword can you use to override standard source order and specificity rules?",
+    "answer_1": "!elevate!",
+    "answer_2": "*prime",
+    "answer_3": "override",
+    "answer_4": "!important",
+    "correct": "!important"
+  },
+  {
+    "title": "You can use the ___ pseudo-class to set a different color on a link if it was clicked on.",
+    "answer_1": "a:visited",
+    "answer_2": "a:hover",
+    "answer_3": "a:link",
+    "answer_4": "a:focus",
+    "correct": "a:visited"
+  },
+
+  {
+    "title": "Which of the following are the CSS Extension Prefixes for Webkit?",
+    "answer_1": "-chrome",
+    "answer_2": "-webkits",
+    "answer_3": "-webkit",
+    "answer_4": "-o-",
+    "correct": "-webkit"
+  },
+  {
+    "title": "Which of the following is the first CSS specification to become an official W3C Recommendation?",
+    "answer_1": "CSS level 1",
+    "answer_2": "CSS level 2",
+    "answer_3": "CSS level 2.1",
+    "answer_4": "CSS level 1.5",
+    "correct": "CSS level 1"
+  },
+  {
+    "title": "Which of the following is not the property of the CSS box model?",
+    "answer_1": "margin",
+    "answer_2": "width",
+    "answer_3": "height",
+    "answer_4": "box",
+    "correct": "box"
+  },
+  {
+    "title": "Which of the following CSS3 property can be used to allow line breaks within words?",
+    "answer_1": "line-break",
+    "answer_2": "line-wrap",
+    "answer_3": "word-break",
+    "answer_4": "word-wrap",
+    "correct": "word-break"
+  },
+  {
+    "title": "If the width of the container is 500 pixels, what would the width of the three columns be in this layout? .grid { display: grid; grid-template-columns: 50px 1fr 2fr; ",
+    "answer_1": "50px, 150px, 300px",
+    "answer_2": "50px, 200px, 300px",
+    "answer_3": "50px, 100px, 200px",
+    "answer_4": "50px, 50px, 100px",
+    "correct": "50px, 150px, 300px"
+  },
+  {
+    "title": "What is the correct syntax for changing the cursor from an arrow to a pointing hand?",
+    "answer_1": ".element {cursor: pointer;}",
+    "answer_2": ".element {cursor: hand;}",
+    "answer_3": ".element {cursor: move-hand;}",
+    "answer_4": ".element {cursor: pointer-hand;}",
+    "correct": ".element {cursor: pointer;}"
+  },
+  {
+    "title": "What is the effect of this style? background-position: 10% 50%;",
+    "answer_1": "The background image is placed 10% from the bottom and 50% from the left of its container",
+    "answer_2": "The background image is placed 10% from the right and 50% from the bottom of its container",
+    "answer_3": "The background image is placed 10% from the left and 50% from the top of its container",
+    "answer_4": "The background image is placed 10% from the top and 50% from the left of its container",
+    "correct": "The background image is placed 10% from the left and 50% from the top of its container"
+  },
+  {
+    "title": "What is the correct selector for targeting all text inputs that are not disabled?",
+    "answer_1": "input[type=\"text\"]:not([type=\"disabled\"]) {...}",
+    "answer_2": "input[type*=\"text\"]:not([disabled=\"disabled\"]) {...}",
+    "answer_3": "input[type=\"text\"]:not(\"disabled\") {...}",
+    "answer_4": "input[type=\"text\"]:not([disabled]) {...}",
+    "correct": "input[type=\"text\"]:not([disabled]) {...}"
+  },
+  {
+    "title": "How can you create a semi-transparent background color?",
+    "answer_1": "background-color: hsl(0, 0, 0, 0.5);",
+    "answer_2": "background-color: rgbx(0, 0, 0, 0.5)",
+    "answer_3": "background-color: rgba(0, 0, 0, 0.5);",
+    "answer_4": "background-color: rgba(0, 0, 0, 1);",
+    "correct": "background-color: rgba(0, 0, 0, 0.5);"
+  },
+  {
+    "title": "Which choice is not a valid transition?",
+    "answer_1": "transition: margin 1000ms ease-in-out;",
+    "answer_2": "transition: position 400ms linear;",
+    "answer_3": "transition: opacity 1s ease-in;",
+    "answer_4": "transition: color 1.3s ease-in;",
+    "correct": "transition: position 400ms linear"
+  },
+  {
+    "title": " Which choice is a valid example of a comment in CSS?",
+    "answer_1": "-- This line has been cancelled.",
+    "answer_2": "// This line has been cancelled.",
+    "answer_3": "# This line has been cancelled.",
+    "answer_4": "/* This line has been cancelled. */",
+    "correct": "/* This line has been cancelled. */"
+  }
+]
