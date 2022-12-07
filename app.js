@@ -91,6 +91,8 @@ async function getQuestions(url) {
   }
 }
 
+getQuestions("./questions/markup_mcq.json");
+
 function setQuestionNumber(qlength, current) {
   if (current < qlength) current++;
 
