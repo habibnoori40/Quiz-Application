@@ -1,7 +1,5 @@
 import { getQuestions } from "../app.js";
 
-getQuestions("../questions/markup_mcq.json");
-
 const links = document.querySelectorAll("nav ul a");
 
 // For Links In Home Page
@@ -25,3 +23,5 @@ window.onload = function () {
     document.querySelector(".note").classList.add("show");
   }, 600);
 };
+
+getQuestions("../questions/markup_mcq.json");
