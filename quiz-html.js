@@ -1,4 +1,6 @@
-import { getQuestions } from "../app.js";
+import { getQuestions } from "./app.js";
+
+getQuestions("./markup_mcq.json");
 
 const links = document.querySelectorAll("nav ul a");
 
@@ -21,7 +23,5 @@ document.querySelector(".start_quiz").onclick = function () {
 window.onload = function () {
   setTimeout(function () {
     document.querySelector(".note").classList.add("show");
-  }, 600);
+  });
 };
-
-getQuestions("../questions/markup_mcq.json");
