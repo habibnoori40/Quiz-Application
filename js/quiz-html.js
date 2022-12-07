@@ -1,6 +1,6 @@
-import { getQuestions } from "./app.js";
+import { getQuestions } from "../app.js";
 
-getQuestions("./markup_mcq.json");
+getQuestions("../questions/markup_mcq.json");
 
 const links = document.querySelectorAll("nav ul a");
 
