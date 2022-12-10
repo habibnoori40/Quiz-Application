@@ -36,14 +36,13 @@ function quizStarter(path) {
         if (window.innerWidth <= 400) {
           document.body.style.justifyContent = "unset";
         }
-      }, 250);
+      }, 200);
     },
     { once: true }
   );
 }
 
-// quizStarter("/questions/markup_mcq.json");
-quizStarter("https://api.npoint.io/8609dc15ea8bb4277b30");
+quizStarter("/questions/markup_mcq.json");
 
 function removeClass() {
   setTimeout(() => {
