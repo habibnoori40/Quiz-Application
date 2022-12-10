@@ -179,7 +179,11 @@ createStars();
 // Create Stars Image GIF
 function createStars() {
   let img = document.createElement("img");
-  img.src = "../img/stars.gif";
+  if(location.pathname == "/quiz-application/"){
+    img.src = "./img/stars.gif";
+  }else {
+    img.src = "../img/stars.gif";
+  }
   img.className = "stars";
 
   document.body.appendChild(img);
