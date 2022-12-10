@@ -179,9 +179,9 @@ createStars();
 // Create Stars Image GIF
 function createStars() {
   let img = document.createElement("img");
-  if(location.pathname == "/quiz-application/"){
-    img.src = "/img/stars.gif";
-  }else {
+  if(location.pathname == "/quiz-application") {
+    img.src = "./img/stars.gif";
+  } else {
     img.src = "../img/stars.gif";
   }
   img.className = "stars";
