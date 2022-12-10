@@ -179,7 +179,7 @@ Your result in percentage <strong>${percentage}%</strong>`;
 // Create Stars Image GIF
 function createStars() {
   let img = document.createElement("img");
-  img.src = "./img/stars.gif";
+  img.src = "../img/stars.gif";
   img.className = "stars";
 
   document.body.appendChild(img);
