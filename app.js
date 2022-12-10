@@ -180,7 +180,7 @@ createStars();
 function createStars() {
   let img = document.createElement("img");
   if(location.pathname == "/quiz-application/"){
-    img.src = "./img/stars.gif";
+    img.src = "/img/stars.gif";
   }else {
     img.src = "../img/stars.gif";
   }
