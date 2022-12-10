@@ -21,9 +21,8 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   position: relative;
-  width: 100%;
-  min-height: 100vh;
-  max-height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-image: linear-gradient(to top, $main_color 65%, $main_second_clr);
   background-repeat: no-repeat;
   display: flex;
@@ -66,7 +65,7 @@ nav {
 }
 
 .progress_bar {
-  width: 80%;
+  width: 85%;
   height: 12px;
   background: $main_second_clr;
   border-radius: 10px 10px 0 0;
@@ -89,16 +88,17 @@ nav {
 
 .quiz-app {
   width: 90%;
-  height: 90vh;
+  height: 90%;
   background-image: linear-gradient(to top, $main_second_clr 0%, $quiz_box_clr);
   border-radius: 5px;
   box-shadow: 10px 15px 24px 2px rgb(0 0 0 / 20%);
   padding: 20px;
+  margin-bottom: 10px;
   transition: var(--transition);
   transition-property: height;
 
   &.hide {
-    height: 30vh;
+    height: 35%;
   }
 
   .quiz-info {
@@ -290,7 +290,7 @@ nav {
   }
 
   &.show {
-    right: -60px;
+    right: -68px;
     opacity: 1;
   }
 }
@@ -315,7 +315,9 @@ a:has(i) {
   font-size: 25px;
   color: $secondry_clr;
 }
-
+span > a {
+  color: orange;
+}
 // Other Things For Better User Experaince
 .visibility {
   opacity: 0;
@@ -411,31 +413,31 @@ img.stars {
   }
 
   .quiz-app {
-    height: 100vh;
-    margin-bottom: 10px;
+    height: 100%;
   }
 }
 
 @media screen and (max-width: 400px) {
+  .quiz-app {
+    width: 95%;
+    word-break: break-word;
+  }
+
+  .result {
+    top: 50%;
+    transform: translateY(-65%);
+  }
+
   .result img {
     margin-right: 0px;
   }
 
   .result span {
-    bottom: -137px;
+    bottom: -98px;
     margin-left: -59px;
   }
   .result span::before {
     border-width: 30px 33px 30px 37px;
-  }
-
-  .quiz-app .quiz-title,
-  .quiz-app .quiz-info,
-  .quiz-app .answer label,
-  .quiz-app .timer_btn .count_down,
-  .quiz-app .timer_btn .submit_btn,
-  .quiz-app .timer_btn .start_quiz {
-    font-size: 13px;
   }
 
   .note span {

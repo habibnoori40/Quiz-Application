@@ -18,9 +18,8 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   position: relative;
-  width: 100%;
-  min-height: 100vh;
-  max-height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-image: linear-gradient(to top, #6de2da 65%, #ddfdf8);
   background-repeat: no-repeat;
   display: flex;
@@ -57,7 +56,7 @@ nav > ul a.active, nav > ul a:hover {
 }
 
 .progress_bar {
-  width: 80%;
+  width: 85%;
   height: 12px;
   background: #ddfdf8;
   border-radius: 10px 10px 0 0;
@@ -79,16 +78,17 @@ nav > ul a.active, nav > ul a:hover {
 
 .quiz-app {
   width: 90%;
-  height: 90vh;
+  height: 90%;
   background-image: linear-gradient(to top, #ddfdf8 0%, #cdf8f1);
   border-radius: 5px;
   box-shadow: 10px 15px 24px 2px rgba(0, 0, 0, 0.2);
   padding: 20px;
+  margin-bottom: 10px;
   transition: var(--transition);
   transition-property: height;
 }
 .quiz-app.hide {
-  height: 30vh;
+  height: 35%;
 }
 .quiz-app .quiz-info {
   display: flex;
@@ -258,7 +258,7 @@ nav > ul a.active, nav > ul a:hover {
   border-color: transparent transparent #fff transparent;
 }
 .note.show {
-  right: -60px;
+  right: -68px;
   opacity: 1;
 }
 
@@ -278,6 +278,10 @@ a:has(i) {
   margin: 0px 70px;
   font-size: 25px;
   color: #005577;
+}
+
+span > a {
+  color: orange;
 }
 
 .visibility {
@@ -363,28 +367,27 @@ img.stars {
     margin-top: 10px;
   }
   .quiz-app {
-    height: 100vh;
-    margin-bottom: 10px;
+    height: 100%;
   }
 }
 @media screen and (max-width: 400px) {
+  .quiz-app {
+    width: 95%;
+    word-break: break-word;
+  }
+  .result {
+    top: 50%;
+    transform: translateY(-65%);
+  }
   .result img {
     margin-right: 0px;
   }
   .result span {
-    bottom: -137px;
+    bottom: -98px;
     margin-left: -59px;
   }
   .result span::before {
     border-width: 30px 33px 30px 37px;
-  }
-  .quiz-app .quiz-title,
-.quiz-app .quiz-info,
-.quiz-app .answer label,
-.quiz-app .timer_btn .count_down,
-.quiz-app .timer_btn .submit_btn,
-.quiz-app .timer_btn .start_quiz {
-    font-size: 13px;
   }
   .note span {
     top: -71%;

@@ -7,7 +7,6 @@ const title = document.querySelector(".quiz-title h2");
 const inputs = document.querySelectorAll(".questions input");
 const answer = document.querySelectorAll(".questions label");
 const submit = document.querySelector(".submit_btn");
-const quizStart = document.querySelector(".start_quiz");
 const countDwonEl = document.querySelector(".count_down");
 const resultContainer = document.getElementById("result");
 const resultText = document.querySelector("#result span");
@@ -21,25 +20,35 @@ let timeInterval;
 let minutes;
 let seconds;
 
-function quizStarter() {
-  quizStart.addEventListener("click", function () {
-    quizApp.classList.remove("hide");
+function quizStarter(path) {
+  submit.addEventListener(
+    "click",
+    function () {
+      quizApp.classList.remove("hide");
 
-    removeClass();
+      removeClass();
 
-    clearInterval(timeInterval);
-    timer(100, questionsLength);
-  });
+      submit.textContent = "NEXT";
+
+      getQuestions(path);
+
+      setTimeout(function () {
+        if (window.innerWidth <= 400) {
+          document.body.style.justifyContent = "unset";
+        }
+      }, 250);
+    },
+    { once: true }
+  );
 }
 
-quizStarter();
+// quizStarter("/questions/markup_mcq.json");
+quizStarter("https://api.npoint.io/8609dc15ea8bb4277b30");
 
 function removeClass() {
   setTimeout(() => {
-    quizStart.remove();
     quizTitleContainer.classList.remove("delete", "visibility");
     questionsContainer.classList.remove("delete", "visibility");
-    submit.classList.remove("delete", "visibility");
   }, 250);
 }
 
@@ -50,13 +59,16 @@ async function getQuestions(url) {
 
     let random_Q = randomize(questions);
 
-    questionsLength = random_Q.length = 20;
+    questionsLength = questions.length = 20;
 
     // For Setting Questions Length And Current Questions Number
     setQuestionNumber(questionsLength, questionCount);
 
     // For Adding The Questions From The Data Object
     addQuestions(random_Q[questionCount], questionsLength);
+
+    clearInterval(timeInterval);
+    timer(100, questionsLength);
 
     submit.onclick = () => {
       if (questionCount >= questionsLength) return;
@@ -90,8 +102,6 @@ async function getQuestions(url) {
     console.log(error);
   }
 }
-
-getQuestions("./questions/markup_mcq.json");
 
 function setQuestionNumber(qlength, current) {
   if (current < qlength) current++;
@@ -130,6 +140,9 @@ function showResult(qlength) {
 
     countDwonEl.innerHTML = "";
 
+    submit.textContent = "Return Home";
+    submit.onclick = () => (location.pathname = "/index.html");
+
     removeElements();
 
     showMessage(qlength, resultInPercentage);
@@ -148,18 +161,18 @@ function removeElements() {
 
 function showMessage(qlength, percentage) {
   if (percentage > 49 && percentage < 70) {
-    resultText.innerHTML = `Your level is somewhat reasonable and good, but you must learn and practice more. You have answered <strong>${correctAnsIndx} from ${qlength}</strong> questions.
-Your result in percentage <strong>${percentage}%</strong>. Here are some tips for you: read articles, solve some problems, and most importantly, read the documentation and you will be fine.`;
+    resultText.innerHTML = `Your level is somewhat reasonable, but you must learn and practice more. You have answered <strong>${correctAnsIndx} from ${qlength}</strong> questions.
+Your result in percentage <strong>${percentage}%</strong>. Here are some tips for you: read articles and most importantly, learn and pratice more.`;
   } else if (percentage >= 70 && percentage <= 85) {
-    resultText.innerHTML = `Your level is great, you answered almost all the questions. I think you are one of the hardworking people and you have the readiness to work. You have answered <strong>${correctAnsIndx} from ${qlength}</strong> questions.
+    resultText.innerHTML = `Your level is great, you answered almost all the questions. I think you are one of the hardworking people and you have the readiness to do any thing. You have answered <strong>${correctAnsIndx} from ${qlength}</strong> questions.
 Your result in percentage <strong>${percentage}%</strong>`;
     createStars();
   } else if (percentage > 85 && percentage <= 100) {
     resultText.innerHTML = `Your level is outstanding, you answered all questions. I want to ask you, where did you learn all this from?
-I believe that you are ready to work because you are developing rapidly. You have answered <strong>${correctAnsIndx} from ${qlength}</strong> questions. Your result in percentage <strong>${percentage}%</strong>`;
+I believe that you are developing rapidly. You have answered <strong>${correctAnsIndx} from ${qlength}</strong> questions. Your result in percentage <strong>${percentage}%</strong>`;
     createStars();
   } else {
-    resultText.innerHTML = `Your level is very bad and I think you are in danger unless you evolve. Here are some quick tips: try to search and read in programming articles, learn the basics of programming and understand the logic behind the code. You have answered <strong>${correctAnsIndx} from ${qlength}</strong> questions.
+    resultText.innerHTML = `Your level is very bad and I think you are in danger unless you evolve. Here are some quick tips: try to search and read in articles, learn the basics, and understand the logic behind things. You have answered <strong>${correctAnsIndx} from ${qlength}</strong> questions.
 Your result in percentage <strong>${percentage}%</strong>`;
   }
 }
@@ -167,7 +180,7 @@ Your result in percentage <strong>${percentage}%</strong>`;
 // Create Stars Image GIF
 function createStars() {
   let img = document.createElement("img");
-  img.src = "./img/stars.gif";
+  img.src = "/img/stars.gif";
   img.className = "stars";
 
   document.body.appendChild(img);
@@ -213,9 +226,10 @@ function timer(time, qlength) {
   }
 }
 
-export { getQuestions };
+export { quizStarter };
 
 // Others
+
 // document.querySelector(".quiz-app").onselectstart = () => false;
 // document.querySelector(".quiz-app").onmousedown = () => false;
 // window.oncontextmenu = () => false;

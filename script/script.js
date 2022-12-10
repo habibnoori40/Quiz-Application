@@ -12,9 +12,13 @@ links.forEach((item) => {
 });
 
 // For The (Note) appearance
-document.querySelector(".start_quiz").onclick = function () {
-  document.querySelector(".note").classList.remove("show");
-};
+document.querySelector(".submit_btn").addEventListener(
+  "click",
+  function () {
+    document.querySelector(".note").classList.remove("show");
+  },
+  { once: true }
+);
 
 window.onload = function () {
   setTimeout(function () {

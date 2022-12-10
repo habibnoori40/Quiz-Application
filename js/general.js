@@ -1,3 +1,4 @@
-import { getQuestions } from "../app.js";
+import { quizStarter } from "../app.js";
 
-getQuestions("../questions/general_mcq.json");
+// quizStarter("../questions/general_mcq.json");
+quizStarter("https://api.npoint.io/0280a83147f705ea143b");

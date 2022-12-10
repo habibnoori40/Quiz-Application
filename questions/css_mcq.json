@@ -25,18 +25,18 @@
   },
   {
     "title": "What is the line-height property primarily used for?",
-    "answer_1": "to control the height of the space between two lines of content",
+    "answer_1": "to control the height of the character size",
     "answer_2": "to control the height of the space between heading elements",
-    "answer_3": "to control the height of the character size",
+    "answer_3": "to control the height of the space between two lines of content",
     "answer_4": "to control the width of the space between characters",
     "correct": "to control the height of the space between two lines of content"
   },
   {
     "title": "Three of these choices are true about class selectors. Which is NOT true?",
     "answer_1": "Multiple classes can be used within the same element.",
-    "answer_2": "The same class can be used multiple times per page.",
+    "answer_2": "Classes can be used multiple times per page but not within the same element.",
     "answer_3": "Class selectors begin with a leading period",
-    "answer_4": "Classes can be used multiple times per page but not within the same element.",
+    "answer_4": "The same class can be used multiple times per page.",
     "correct": "Classes can be used multiple times per page but not within the same element."
   },
   {
@@ -82,9 +82,9 @@
   {
     "title": "Which choice would give a block element rounded corners?",
     "answer_1": "corner-radius: 10px;",
-    "answer_2": "border-corner: 10px;",
+    "answer_2": "border-radius: 10px;",
     "answer_3": "corner-curve: 10px;",
-    "answer_4": "border-radius: 10px;",
+    "answer_4": "border-corner: 10px;",
     "correct": "border-radius: 10px;"
   },
   {
@@ -107,8 +107,8 @@
     "title": "Which type of declaration will take precedence?",
     "answer_1": "any declarations in user-agent stylesheets",
     "answer_2": "important declarations in user stylesheets",
-    "answer_3": "normal declarations in author stylesheets",
-    "answer_4": "important declarations in author stylesheets",
+    "answer_3": "declarations in author stylesheets",
+    "answer_4": "normal declarations in author stylesheets important",
     "correct": "important declarations in user stylesheets"
   },
   {
@@ -131,17 +131,17 @@
     "title": "What selector and property would you use to scale an element to be 50% smaller on hover?",
     "answer_1": "element:hover {scale: 0.5;}",
     "answer_2": "element:hover {transform: scale(0.5);}",
-    "answer_3": "element:hover {transform: scale(0.5);}",
+    "answer_3": "element::hover {transform: scale(0.5);}",
     "answer_4": "element:hover {transform: scale(50%);}",
     "correct": "element:hover {transform: scale(0.5);}"
   },
   {
     "title": "Which selector would select only internal links within the current page?",
     "answer_1": "a[href=\"#\"] {...}",
-    "answer_2": "a[href~=\"#\"]",
-    "answer_3": "a[href~=\"#\"]",
-    "answer_4": "a[href=\"#\"]",
-    "correct": "a[href~=\"#\"]"
+    "answer_2": "a[href~=\"#\"] {...}",
+    "answer_3": "a[href*=\"#\"] {...}",
+    "answer_4": "a[href^=\"#\"] {...}",
+    "correct": "a[href~=\"#\"] {...}"
   },
   {
     "title": "Which style places an element at a fixed location within its container?",
@@ -153,10 +153,10 @@
   },
   {
     "title": "What is the ::placeholder pseudo-element used for?",
-    "answer_1": "It is used to format the appearance of placeholder text within a form control.",
+    "answer_1": "It writes text content into any page element.",
     "answer_2": "It specifies the default input text for a form control.",
     "answer_3": "It writes text content into a hyperlink tooltip.",
-    "answer_4": "It writes text content into any page element.",
+    "answer_4": "It is used to format the appearance of placeholder text within a form control.",
     "correct": "It is used to format the appearance of placeholder text within a form control."
   },
   {
@@ -178,9 +178,9 @@
   {
     "title": "Which CSS keyword can you use to override standard source order and specificity rules?",
     "answer_1": "!elevate!",
-    "answer_2": "*prime",
+    "answer_2": "!important",
     "answer_3": "override",
-    "answer_4": "!important",
+    "answer_4": "*prime",
     "correct": "!important"
   },
   {
@@ -218,7 +218,7 @@
   },
   {
     "title": "Which of the following CSS3 property can be used to allow line breaks within words?",
-    "answer_1": "line-break",
+    "answer_1": "break-word",
     "answer_2": "line-wrap",
     "answer_3": "word-break",
     "answer_4": "word-wrap",

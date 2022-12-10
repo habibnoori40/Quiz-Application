@@ -2,9 +2,9 @@
   {
     "title": "What is DOM in HTML?",
     "answer_1": "Language dependent application programming",
-    "answer_2": "Convention for representing and interacting with objects in html documents",
-    "answer_3": "Application programming interface",
-    "answer_4": "Hierarchy of objects in ASP.NET",
+    "answer_2": "Hierarchy of objects in ASP.NET",
+    "answer_3": "Convention for representing and interacting with objects in html documents",
+    "answer_4": "Application programming interface",
     "correct": "Convention for representing and interacting with objects in html documents"
   },
   {
@@ -41,8 +41,8 @@
   },
   {
     "title": "Which list comprises three empty elements?",
-    "answer_1": "<wbr> <base> <source>",
-    "answer_2": "<link> <meta> <title>",
+    "answer_1": "<link> <meta> <title>",
+    "answer_2": "<wbr> <base> <source>",
     "answer_3": "<input> <br> <p>",
     "answer_4": "<area> <embed> <strong>",
     "correct": "<wbr> <base> <source>"
