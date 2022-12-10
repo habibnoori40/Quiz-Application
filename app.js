@@ -179,7 +179,7 @@ createStars();
 // Create Stars Image GIF
 function createStars() {
   let img = document.createElement("img");
-  if(location.href == "https://habibnoori40.github.io/quiz-application/") {
+  if(location.pathname == "/quiz-application/") {
     img.src = "./img/stars.gif";
   } else {
     img.src = "../img/stars.gif";
