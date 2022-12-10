@@ -58,7 +58,7 @@ async function getQuestions(url) {
 
     let random_Q = randomize(questions);
 
-    questionsLength = questions.length = 20;
+    questionsLength = random_Q.length = 20;
 
     // For Setting Questions Length And Current Questions Number
     setQuestionNumber(questionsLength, questionCount);
