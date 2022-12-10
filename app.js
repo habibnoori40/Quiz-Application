@@ -58,7 +58,7 @@ async function getQuestions(url) {
 
     let random_Q = randomize(questions);
 
-    questionsLength = random_Q.length = 5;
+    questionsLength = random_Q.length = 20;
 
     // For Setting Questions Length And Current Questions Number
     setQuestionNumber(questionsLength, questionCount);
@@ -175,7 +175,6 @@ I believe that you are developing rapidly. You have answered <strong>${correctAn
 Your result in percentage <strong>${percentage}%</strong>`;
   }
 }
-createStars();
 // Create Stars Image GIF
 function createStars() {
   let img = document.createElement("img");
@@ -185,13 +184,12 @@ function createStars() {
     img.src = "../img/stars.gif";
   }
   img.className = "stars";
-
   document.body.appendChild(img);
 
   // Remove Stars
-//   setTimeout(function () {
-//     img.remove();
-//   }, 3700);
+  setTimeout(function () {
+    img.remove();
+  }, 3700);
 }
 
 // For Randomizing The Questions
