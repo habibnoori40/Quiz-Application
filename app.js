@@ -42,7 +42,7 @@ function quizStarter(path) {
   );
 }
 
-quizStarter("/questions/markup_mcq.json");
+quizStarter("./questions/markup_mcq.json");
 
 function removeClass() {
   setTimeout(() => {
@@ -140,7 +140,7 @@ function showResult(qlength) {
     countDwonEl.innerHTML = "";
 
     submit.textContent = "Return Home";
-    submit.onclick = () => (location.pathname = "/index.html");
+    submit.onclick = () => (location.pathname = "/quiz-application/");
 
     removeElements();
 
