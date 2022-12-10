@@ -42,8 +42,8 @@ function quizStarter(path) {
   );
 }
 
-// quizStarter("/questions/markup_mcq.json");
-quizStarter("https://api.npoint.io/8609dc15ea8bb4277b30");
+quizStarter("/questions/markup_mcq.json");
+// quizStarter("https://api.npoint.io/8609dc15ea8bb4277b30");
 
 function removeClass() {
   setTimeout(() => {
