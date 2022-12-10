@@ -231,21 +231,21 @@ export { quizStarter };
 
 // Others
 
-// document.querySelector(".quiz-app").onselectstart = () => false;
-// document.querySelector(".quiz-app").onmousedown = () => false;
-// window.oncontextmenu = () => false;
-// document.onkeydown = function (e) {
-//   if (
-//     e.key == "F12" ||
-//     (e.ctrlKey && e.shiftKey && e.key == "I") ||
-//     e.key == "i"
-//   ) {
-//     return false;
-//   }
-//   if ((e.ctrlKey && e.shiftKey && e.key == "J") || e.key == "j") {
-//     return false;
-//   }
-//   if ((e.ctrlKey && e.key == "u") || e.key == "U") {
-//     return false;
-//   }
-// };
+document.querySelector(".quiz-app").onselectstart = () => false;
+document.querySelector(".quiz-app").onmousedown = () => false;
+window.oncontextmenu = () => false;
+document.onkeydown = function (e) {
+  if (
+    e.key == "F12" ||
+    (e.ctrlKey && e.shiftKey && e.key == "I") ||
+    e.key == "i"
+  ) {
+    return false;
+  }
+  if ((e.ctrlKey && e.shiftKey && e.key == "J") || e.key == "j") {
+    return false;
+  }
+  if ((e.ctrlKey && e.key == "u") || e.key == "U") {
+    return false;
+  }
+};
